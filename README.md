@@ -4,5 +4,5 @@ O objetivo do Weekend Dojo é reunir pessoas interessadas nas práticas de desen
 
 # Ferramentas  necessárias
 
-* Visual Studio Code ([https://code.visualstudio.com/]https://code.visualstudio.com/)
-* Plugin VS Live Share - Deve  ser instalado do marketplace do Visual Studio Code ([https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare]https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+* Visual Studio Code (https://code.visualstudio.com/)
+* Plugin VS Live Share - Deve  ser instalado do marketplace do Visual Studio Code (https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
