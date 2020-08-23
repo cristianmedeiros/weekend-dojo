@@ -2,7 +2,7 @@
 public class TestaConta {
 	public static void main(String args[]) {
         //Recebendo o valor da linha de comando
-		double valor = Double.parseDouble(args[0]);
+        double valor = Double.parseDouble(args[0]);
         
         //Criando uma nova conta
         Conta conta = new Conta(333);
@@ -10,13 +10,12 @@ public class TestaConta {
         System.out.println(conta.getAgencia());
         
         //Usando a conta
-        conta.processamento(valor);
-        conta.deposita(500.5);
-        conta.deposita(50.5);
-        conta.deposita(10.5);
-        System.out.println(conta.saldo);
+        conta.deposita(valor);
+        conta.saca(33);
+        conta.saca(1550);
 
-	}
+        System.out.println("Saldo atual: "+ conta.saldo);
 
+	} 
 
 }

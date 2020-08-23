@@ -21,37 +21,17 @@ public class Conta {
 		saldo += valor;
 	}
 
-
-    /*
-        Notas disponíveis de R$ 100,00; R$ 50,00; R$ 20,00 e R$ 10,00
-
-    */
-
-	public void processamento(double valorentrada){
-
-        double valor = valorentrada;
-
-		int notas[] = {  100, 50, 20, 10  };
-				//                      0    1   2   3
-		//Cliente saca 10 reais
-		if  (valor == 10)  {
-			System.out.println(valor);
-		}
-
-		//Cliente saca 90 reais
-		int contador = 0;
-		for  (int i = 0; i < notas.length; i++)  {
-			if  (valor - notas[contador] >= 0)  {
-				System.out.println("Valor da nota:" + notas[contador]);
-				valor = valor - notas[contador];
-				i = 0;
-				contador = 0;
-			}  else  {
-				contador++;
-			}
-
-		}
-
+	public boolean saca (double valor) {
+		if(this.saldo >= valor){
+			this.saldo -= valor;
+			return true;
+		} else {
+			
+			System.out.println("Saldo Insuficiente, seu saldo é de "+ saldo + " vc esta tentado sacar "+valor);
+			return false;
+		} 
+		
 	}
+
 }
     
