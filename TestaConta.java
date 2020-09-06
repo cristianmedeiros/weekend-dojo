@@ -1,5 +1,24 @@
+import java.util.Scanner;
 
 public class TestaConta {
+
+        /*
+         * 
+         * Criar uma interface com o usuario, onde ele deverá fornecer:
+         * 1. Nome
+         * 2. Telefone
+         * 3. Email
+         * 4. Agencia 
+         * 5. Conta
+         * 6. Saldo inicial
+         * 
+         * O usuario deverá executar as operações:
+         * 1. Deposita
+         * 2. Saque
+         * 3. Consulta Saldo
+         *
+         */
+
 	public static void main(String args[]) {
         //Recebendo o valor da linha de comando
         double valor = Double.parseDouble(args[0]);
