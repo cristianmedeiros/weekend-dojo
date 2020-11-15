@@ -1,0 +1,20 @@
+Saber quais arquivos foram modificados
+
+git status
+
+Colocar arquivos no repositorio
+
+git add NOMEDOARQUIVO - adiciona um arquivo no repositorio
+git add . - adiciona todos os arquivos modificados no repositorio
+
+Mandar arquivos para o repositorio local
+
+git commit -m "MENSAGEM COM AS ALTERACOES IMPLEMENTADAS"
+
+Mandar arquivos para o repositorio do github
+
+git push origin master
+
+Pegar arquivos do repositorio
+
+git pull origin master
